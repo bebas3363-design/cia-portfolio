@@ -897,3 +897,66 @@
     min-height: 300px !important; /* Ensures the painting cards look substantial on mobile */
   }
 }
+
+/* --- UNIVERSAL MOBILE LAYOUT RESET --- */
+@media screen and (max-width: 768px) {
+  /* Force every structural wrapper container to match the exact phone width */
+  .element-light,
+  .element-light * {
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Force all nested components to stack neatly into a single vertical column */
+  .portfolio-page,
+  .introduction,
+  .top-bar,
+  .artist-statement,
+  .actions,
+  .selected-works,
+  .artwork-sequence,
+  .div-wrapper,
+  .div-3,
+  .studio-notes,
+  .contact-footer {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: auto !important;
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    padding: 16px !important;
+  }
+
+  /* Fix text alignments so titles and content stay beautifully centered on screens */
+  .artwork-copy,
+  .artwork-copy-2,
+  .biography-copy,
+  .footer-copy,
+  .quiet-studies-in,
+  .p {
+    text-align: center !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Resize massive desktop headings so they fit completely inside mobile viewports */
+  .quiet-studies-in {
+    font-size: 26px !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Force the visual artwork element boxes to display beautifully */
+  .artwork-preview,
+  .artwork-preview-2,
+  .artwork-preview-3,
+  .artwork-preview-4,
+  .small-mark-wrapper {
+    height: 320px !important; /* Forces a crisp image container baseline height */
+    width: 100% !important;
+    margin: 15px 0 !important;
+  }
+}
