@@ -1,0 +1,65 @@
+:root {
+  --responsible-department-098854-framer-app-cormorant-garamond-light-font-family:
+    "Cormorant Garamond", Helvetica;
+  --responsible-department-098854-framer-app-cormorant-garamond-light-font-weight: 300;
+  --responsible-department-098854-framer-app-cormorant-garamond-light-font-size: 22px;
+  --responsible-department-098854-framer-app-cormorant-garamond-light-letter-spacing: -0.2199999988079071px;
+  --responsible-department-098854-framer-app-cormorant-garamond-light-line-height: 24.200000762939453px;
+  --responsible-department-098854-framer-app-cormorant-garamond-light-font-style: normal;
+  --responsible-department-098854-framer-app-cormorant-garamond-medium-font-family:
+    "Cormorant Garamond", Helvetica;
+  --responsible-department-098854-framer-app-cormorant-garamond-medium-font-weight: 500;
+  --responsible-department-098854-framer-app-cormorant-garamond-medium-font-size: 52px;
+  --responsible-department-098854-framer-app-cormorant-garamond-medium-letter-spacing: -1.0399999618530273px;
+  --responsible-department-098854-framer-app-cormorant-garamond-medium-line-height: 49.400001525878906px;
+  --responsible-department-098854-framer-app-cormorant-garamond-medium-font-style: normal;
+  --responsible-department-098854-framer-app-inter-regular-font-family:
+    "Inter", Helvetica;
+  --responsible-department-098854-framer-app-inter-regular-font-weight: 400;
+  --responsible-department-098854-framer-app-inter-regular-font-size: 18px;
+  --responsible-department-098854-framer-app-inter-regular-letter-spacing: 0px;
+  --responsible-department-098854-framer-app-inter-regular-line-height: 29.700000762939453px;
+  --responsible-department-098854-framer-app-inter-regular-font-style: normal;
+  --responsible-department-098854-framer-app-inter-medium-upper-font-family:
+    "Inter", Helvetica;
+  --responsible-department-098854-framer-app-inter-medium-upper-font-weight: 500;
+  --responsible-department-098854-framer-app-inter-medium-upper-font-size: 13px;
+  --responsible-department-098854-framer-app-inter-medium-upper-letter-spacing: 1.559999942779541px;
+  --responsible-department-098854-framer-app-inter-medium-upper-line-height: 15.600000381469727px;
+  --responsible-department-098854-framer-app-inter-medium-upper-font-style: normal;
+  --responsible-department-098854-framer-app-inter-medium-font-family:
+    "Inter", Helvetica;
+  --responsible-department-098854-framer-app-inter-medium-font-weight: 500;
+  --responsible-department-098854-framer-app-inter-medium-font-size: 12px;
+  --responsible-department-098854-framer-app-inter-medium-letter-spacing: 0px;
+  --responsible-department-098854-framer-app-inter-medium-line-height: normal;
+  --responsible-department-098854-framer-app-inter-medium-font-style: normal;
+  --responsible-department-098854-framer-app-inter-semi-bold-font-family:
+    "Inter", Helvetica;
+  --responsible-department-098854-framer-app-inter-semi-bold-font-weight: 600;
+  --responsible-department-098854-framer-app-inter-semi-bold-font-size: 13px;
+  --responsible-department-098854-framer-app-inter-semi-bold-letter-spacing: 0px;
+  --responsible-department-098854-framer-app-inter-semi-bold-line-height: normal;
+  --responsible-department-098854-framer-app-inter-semi-bold-font-style: normal;
+  --interesting-meerkat-287438-framer-app-inter-medium-upper-font-family:
+    "Inter", Helvetica;
+  --interesting-meerkat-287438-framer-app-inter-medium-upper-font-weight: 500;
+  --interesting-meerkat-287438-framer-app-inter-medium-upper-font-size: 11px;
+  --interesting-meerkat-287438-framer-app-inter-medium-upper-letter-spacing: 1.100000023841858px;
+  --interesting-meerkat-287438-framer-app-inter-medium-upper-line-height: 13.199999809265137px;
+  --interesting-meerkat-287438-framer-app-inter-medium-upper-font-style: normal;
+  --interesting-meerkat-287438-framer-app-inter-regular-font-family:
+    "Inter", Helvetica;
+  --interesting-meerkat-287438-framer-app-inter-regular-font-weight: 400;
+  --interesting-meerkat-287438-framer-app-inter-regular-font-size: 15px;
+  --interesting-meerkat-287438-framer-app-inter-regular-letter-spacing: 0px;
+  --interesting-meerkat-287438-framer-app-inter-regular-line-height: 22.5px;
+  --interesting-meerkat-287438-framer-app-inter-regular-font-style: normal;
+  --interesting-meerkat-287438-framer-app-cormorant-garamond-medium-font-family:
+    "Cormorant Garamond", Helvetica;
+  --interesting-meerkat-287438-framer-app-cormorant-garamond-medium-font-weight: 500;
+  --interesting-meerkat-287438-framer-app-cormorant-garamond-medium-font-size: 42px;
+  --interesting-meerkat-287438-framer-app-cormorant-garamond-medium-letter-spacing: -1.0499999523162842px;
+  --interesting-meerkat-287438-framer-app-cormorant-garamond-medium-line-height: 42.84000015258789px;
+  --interesting-meerkat-287438-framer-app-cormorant-garamond-medium-font-style: normal;
+}
