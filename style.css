@@ -998,3 +998,36 @@
     position: relative !important;
   }
 }
+
+/* --- TEXT AND LINK CORRECTION FOR INTRO --- */
+@media screen and (max-width: 768px) {
+  /* Snatch every single text layer and slam its width to fluid scale */
+  .element-light .intro-copy,
+  .element-light .intro-copy div,
+  .element-light .intro-copy p,
+  .element-light .artist-statement div,
+  .element-light .title,
+  .element-light .title div {
+    width: 100% !important;
+    max-width: 100% !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    position: relative !important;
+    transform: none !important;
+  }
+
+  /* Target the floating social media text strings and snap them centered */
+  .element-light .actions div,
+  .element-light .actions p,
+  .element-light .actions img,
+  .element-light .frame {
+    left: auto !important;
+    top: auto !important;
+    margin: 4px auto !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
