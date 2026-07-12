@@ -860,3 +860,40 @@
   width: 30px;
   height: 30px;
 }
+
+/* --- MOBILE RESPONSIVENESS PATCH --- */
+@media screen and (max-width: 1200px) {
+  /* Break the rigid 1200px container boundary */
+  .element-light .portfolio-page {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 20px !important; /* Adds nice side margins so text doesn't touch the screen edge */
+    box-sizing: border-box !important;
+  }
+
+  /* Force the individual project rows to stack vertically on small screens */
+  .element-light .artwork-sequence .div-3 {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    gap: 20px !important;
+  }
+
+  /* Make sure copy text blocks shrink safely to fit phone screens */
+  .element-light .artwork-copy, 
+  .element-light .artwork-copy-2 {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Make sure image containers shrink safely and don't spill off-screen */
+  .element-light .artwork-preview,
+  .element-light .artwork-preview-2,
+  .element-light .artwork-preview-3,
+  .element-light .artwork-preview-4,
+  .element-light .small-mark-wrapper {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 300px !important; /* Ensures the painting cards look substantial on mobile */
+  }
+}
